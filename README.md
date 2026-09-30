@@ -1,4 +1,4 @@
-# AppPulse 📊 — Production-Grade Android Analytics SDK
+# AppPulse  — Production-Grade Android Analytics SDK
 
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.0.21-purple.svg)](https://kotlinlang.org)
 [![Android Min SDK](https://img.shields.io/badge/Min%20SDK-24-blue.svg)](https://developer.android.com)
@@ -13,7 +13,7 @@ Accompanied by a modern Material Design demo application and a Python mock serve
 
 ---
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 The SDK follows clean architecture with strict internal encapsulation:
 
@@ -66,7 +66,7 @@ The SDK follows clean architecture with strict internal encapsulation:
 
 ---
 
-## 📦 Project Structure
+##  Project Structure
 
 ```
 aiandroid/
@@ -100,7 +100,7 @@ aiandroid/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Initialize the SDK
 Initialize `AppPulse` once in your `Application` class:
@@ -167,7 +167,7 @@ AppPulse.deleteAllEvents()
 
 ---
 
-## 🧪 Running the Mock Server & Demo App
+##  Running the Mock Server & Demo App
 
 ### Start Mock Server
 ```bash
@@ -191,7 +191,7 @@ Connect an Android device or launch an emulator, then:
 
 ---
 
-## 🛠️ Testing & Verification
+##  Testing & Verification
 
 The SDK contains comprehensive unit tests covering:
 - **EventValidatorTest**: Name length, regex, property type limits, null safety.
